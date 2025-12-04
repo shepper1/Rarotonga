@@ -1,0 +1,283 @@
+{
+  "pays": "Îles Cook",
+  "drapeau": "🇨🇰",
+  "symbole": "🌺",
+  "titre": "Rarotonga, le Joyau du Pacifique Sud",
+  "budget": "5500€",
+  "duree": "14 jours",
+  "temps_vol": "Environ 30 heures",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Kia Orana, Bienvenue à Rarotonga !",
+      "legende": "Après un long voyage, l'atterrissage sur le tarmac fleuri de Rarotonga est une récompense. Cette première journée est dédiée à l'acclimatation en douceur au rythme insulaire. Installez-vous, respirez l'air parfumé des fleurs de Tiare et laissez la magie du Pacifique opérer sans vous presser.",
+      "lieu": "Muri Beach",
+      "activites": [
+        "🛬 <strong>Arrivée et transfert:</strong> Récupérez votre scooter ou voiture de location directement à l'aéroport pour une autonomie totale dès les premiers instants sur l'île.",
+        "🚶‍♂️ <strong>Premiers pas sur Muri Beach:</strong> Découvrez le lagon le plus célèbre de l'île, avec ses motus (îlots) emblématiques et ses eaux cristallines, idéal pour une première baignade relaxante."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "🛵",
+          "titre": "Permis Scooter",
+          "texte": "La conduite se fait à gauche. Pour un scooter, un permis local est obligatoire si vous n'avez pas de permis moto. Il s'obtient facilement au poste de police d'Avarua."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🗿",
+      "titre": "Avarua, Cœur Battant de l'Île",
+      "legende": "Plongez dans l'ambiance locale en explorant Avarua, la charmante capitale. Entre l'effervescence de son marché coloré et la quiétude de ses musées, cette journée est une immersion dans la culture et le quotidien des habitants de Rarotonga. C'est le meilleur moyen de prendre le pouls de l'île.",
+      "lieu": "Avarua",
+      "activites": [
+        "🛍️ <strong>Marché Punanga Nui:</strong> Imprégnez-vous des couleurs et des saveurs locales, c'est le lieu idéal pour dénicher des perles noires, des paréos faits main et goûter aux fruits tropicaux frais.",
+        "🏛️ <strong>Musée National des Îles Cook:</strong> Explorez l'histoire et les traditions polynésiennes à travers des expositions d'artefacts, de photographies et d'artisanat traditionnel."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Astuce",
+          "texte": "Le samedi matin est le meilleur moment pour visiter le marché Punanga Nui, avec des spectacles de danse et de musique qui animent les allées."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "⛰️",
+      "titre": "L'Île Côté Montagne",
+      "legende": "Rarotonga ne se résume pas à ses plages. Aujourd'hui, l'aventure vous appelle dans le cœur verdoyant et volcanique de l'île. La randonnée 'Cross-Island Track' est un défi physique qui offre en récompense des vues panoramiques spectaculaires et une connexion profonde avec la nature luxuriante.",
+      "lieu": "Centre de l'île",
+      "activites": [
+        "🥾 <strong>Randonnée 'Cross-Island Track':</strong> Traversez l'île du nord au sud en suivant un sentier ancestral, passant par 'The Needle' (Te Rua Manga), un piton rocheux offrant une vue à 360°.",
+        "💦 <strong>Cascade de Papua (Wigmore's Waterfall):</strong> Terminez votre effort par une baignade rafraîchissante dans les eaux douces de cette cascade nichée au cœur de la végétation tropicale."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Conseil équipement",
+          "texte": "De bonnes chaussures de marche sont indispensables. Le sentier peut être glissant et boueux, surtout après la pluie. Prenez beaucoup d'eau."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🚤",
+      "titre": "Trésors du Lagon de Muri",
+      "legende": "Le lagon de Muri est une véritable carte postale vivante. Embarquez pour une journée d'exploration de ses eaux turquoise et de ses motus idylliques. C'est l'expérience polynésienne par excellence, alliant snorkeling, détente et un délicieux barbecue local sur un îlot isolé.",
+      "lieu": "Muri Lagoon",
+      "activites": [
+        "🐠 <strong>Croisière sur le lagon:</strong> Montez à bord d'un bateau à fond de verre pour une journée de snorkeling parmi les poissons tropicaux et les bénitiers géants.",
+        "🏝️ <strong>Déjeuner sur un motu:</strong> Dégustez un barbecue de poisson frais sur le motu Koromiri, tout en écoutant les légendes locales contées par votre équipage au son du ukulélé."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Protection solaire",
+          "texte": "Le soleil du Pacifique est intense, surtout avec la réverbération sur l'eau. Crème solaire haute protection, chapeau et lunettes sont non négociables."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🛵",
+      "titre": "La Route Circulaire (Ara Tapu)",
+      "legende": "Pour véritablement sentir le pouls de Rarotonga, rien ne vaut un tour complet de l'île. La route côtière de 32 km, Ara Tapu, se parcourt à un rythme tranquille en scooter ou en voiture. Chaque virage révèle une nouvelle plage déserte, un petit café local ou un point de vue à couper le souffle.",
+      "lieu": "Tour de l'île",
+      "activites": [
+        "🌊 <strong>Découverte des plages secrètes:</strong> Arrêtez-vous à Titikaveka Beach pour son sable blanc immaculé et son snorkeling exceptionnel, ou à Black Rock pour ses légendes et ses couchers de soleil.",
+        "🍍 <strong>Visite d'une plantation:</strong> Faites une pause dans une plantation pour déguster des fruits tropicaux fraîchement cueillis et comprendre l'agriculture locale de l'île."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🚌",
+          "titre": "Alternative",
+          "texte": "Le bus de l'île est une excellente option. Il y a deux lignes : 'Clockwise' (sens horaire) et 'Anti-Clockwise' (sens anti-horaire). Il suffit de lui faire signe pour qu'il s'arrête."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🌺",
+      "titre": "Saveurs et Traditions",
+      "legende": "La culture des Îles Cook est une célébration vibrante qui s'exprime à travers la danse, le chant et la gastronomie. Cette journée est une invitation à éveiller vos sens, culminant avec une soirée 'Island Night', un spectacle immersif et inoubliable qui restera gravé dans votre mémoire.",
+      "lieu": "Divers",
+      "activites": [
+        "🥥 <strong>Cours de cuisine locale:</strong> Apprenez à préparer le 'Ika Mata' (poisson cru mariné au lait de coco) lors d'un atelier culinaire interactif pour ramener un peu de Rarotonga chez vous.",
+        "💃 <strong>Spectacle 'Island Night':</strong> Assistez à un dîner-spectacle avec un buffet 'Umu' (four traditionnel en terre) et des performances de danseurs racontant les légendes de leurs ancêtres."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Réservation",
+          "texte": "Les 'Island Nights' sont très populaires. Réservez votre place à l'avance, notamment au Te Vara Nui Village ou au Highland Paradise Cultural Centre pour une expérience authentique."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🐢",
+      "titre": "Le Monde du Silence",
+      "legende": "Les fonds marins de Rarotonga sont un sanctuaire préservé pour une vie aquatique riche. Que vous soyez plongeur certifié ou simple amateur de snorkeling, explorez les récifs coralliens et les passes où tortues, raies et poissons multicolores évoluent en toute quiétude.",
+      "lieu": "Côte Sud / Passes",
+      "activites": [
+        "🤿 <strong>Plongée sous-marine:</strong> Explorez les tombants et les grottes sous-marines avec un des centres de plongée de l'île pour une rencontre inoubliable avec la faune pélagique.",
+        "🐢 <strong>Snorkeling avec les tortues:</strong> Participez à une excursion guidée dans la passe d'Avaavaroa, un site réputé pour l'observation respectueuse des tortues vertes marines dans leur habitat naturel."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🌊",
+          "titre": "Sécurité",
+          "texte": "Soyez toujours conscient des courants, surtout dans les passes. Il est fortement recommandé de partir avec un guide local qui connaît parfaitement les conditions."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🧘",
+      "titre": "Journée de Relaxation Totale",
+      "legende": "Après plusieurs jours d'aventure, il est temps de s'accorder une pause. Cette journée est entièrement dédiée à la détente. Laissez-vous bercer par le son des vagues, lisez à l'ombre d'un cocotier ou offrez-vous un soin traditionnel pour une régénération complète du corps et de l'esprit.",
+      "lieu": "Côte Ouest",
+      "activites": [
+        "💆 <strong>Massage polynésien:</strong> Profitez d'un massage traditionnel 'Romi' utilisant de l'huile de monoï locale pour une relaxation profonde et parfumée.",
+        "🍹 <strong>Coucher de soleil sur la côte Ouest:</strong> Installez-vous dans un bar de plage comme le Shipwreck Hut pour siroter un cocktail en admirant le spectacle flamboyant du soleil se couchant sur l'océan."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🤫",
+          "titre": "Le spot secret",
+          "texte": "Pour un coucher de soleil plus intime, rendez-vous à Black Rock. Les roches volcaniques noires contrastent magnifiquement avec les couleurs du ciel."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "⚫",
+      "titre": "L'Art de la Perle Noire",
+      "legende": "Les Îles Cook sont le berceau de perles noires exceptionnelles. Cette journée est une immersion dans l'univers fascinant de la perliculture, de la greffe de l'huître à la création de bijoux uniques. C'est une occasion de comprendre cet art ancestral et de ramener un souvenir éternel.",
+      "lieu": "Avarua / Arorangi",
+      "activites": [
+        "🦪 <strong>Visite d'une ferme perlière:</strong> Découvrez les secrets de la culture de la perle noire et comprenez les critères de qualité qui font leur renommée mondiale.",
+        "💎 <strong>Atelier de création de bijou:</strong> Choisissez votre propre perle et participez à un atelier pour monter votre bijou personnalisé, un souvenir unique de votre voyage."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Budget",
+          "texte": "Les perles noires peuvent être chères. Fixez-vous un budget avant de visiter les boutiques et exigez toujours un certificat d'authenticité."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🚙",
+      "titre": "Hors des Sentiers Battus",
+      "legende": "Explorez les recoins cachés et les routes intérieures inaccessibles de Rarotonga à bord d'un 4x4. Cette excursion vous mènera à des points de vue panoramiques spectaculaires et vous fera découvrir l'histoire cachée de l'île, loin des circuits touristiques classiques.",
+      "lieu": "Intérieur de l'île",
+      "activites": [
+        "🏞️ <strong>Safari en 4x4:</strong> Suivez votre guide sur des pistes escarpées à travers la jungle pour atteindre des points de vue imprenables sur le lagon et les vallées verdoyantes.",
+        "🗿 <strong>Découverte des Marae:</strong> Visitez des sites archéologiques sacrés (marae) cachés dans la végétation, témoins de l'histoire ancienne et des traditions des premiers habitants."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "C'est l'occasion parfaite pour des photos spectaculaires. Préparez votre appareil et un objectif grand-angle si vous en avez un."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🎁",
+      "titre": "Derniers Instants et Souvenirs",
+      "legende": "Profitez de cette dernière journée complète pour savourer une dernière fois la douceur de vivre de Rarotonga. C'est le moment idéal pour une dernière baignade dans votre lagon préféré et pour trouver les derniers souvenirs à rapporter à la maison.",
+      "lieu": "Muri / Avarua",
+      "activites": [
+        "🛶 <strong>Kayak ou Paddle sur le lagon:</strong> Louez un kayak ou un paddle pour une dernière exploration paisible des motus de Muri à votre propre rythme.",
+        "🛍️ <strong>Shopping de dernière minute:</strong> Retournez au marché Punanga Nui ou dans les boutiques d'Avarua pour acheter de l'artisanat local, de l'huile de monoï ou un ukulélé."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "📦",
+          "titre": "Astuce Souvenirs",
+          "texte": "Les sculptures en bois (tiki, tangaroa) et les 'tivaevae' (patchworks colorés) sont des souvenirs authentiques et magnifiques à rapporter."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "🛫",
+      "titre": "Aere Ra, à Bientôt Rarotonga",
+      "legende": "C'est le moment de dire au revoir, ou plutôt 'aere ra' (au revoir) à ce petit paradis. Profitez d'un dernier petit-déjeuner face au lagon avant de vous diriger vers l'aéroport, la tête remplie de souvenirs inoubliables et le cœur léger.",
+      "lieu": "Aéroport de Rarotonga (RAR)",
+      "activites": [
+        "☕ <strong>Dernier petit-déjeuner tropical:</strong> Savourez une dernière fois les fruits frais et la vue sur l'océan avant de boucler vos valises.",
+        "🛫 <strong>Vol retour:</strong> Départ de l'aéroport international de Rarotonga pour le long voyage de retour vers Marseille."
+      ],
+      "illustration": "jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "✈️",
+          "titre": "Taxe de départ",
+          "texte": "La taxe de départ est aujourd'hui presque toujours incluse dans le prix de votre billet d'avion. Pas de mauvaise surprise à prévoir à l'aéroport."
+        }
+      ]
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "La période idéale pour ce séjour s'étend de Mai à Octobre, durant la saison sèche.",
+      "symbole": "☀️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "D'avril à novembre, le climat est sec et agréable, avec des températures entre 22 et 28°C. Prévoir des vêtements légers et un lainage pour les soirées.",
+      "symbole": "🌡️"
+    },
+    {
+      "titre": "La monnaie est le Dollar Néo-Zélandais (NZD). Les cartes de crédit sont acceptées partout, mais prévoyez du liquide pour les petits marchés.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "Conduite à gauche. Un permis local est nécessaire pour les scooters (obtenu facilement au poste de police d'Avarua sur présentation du permis national).",
+      "symbole": "🛵"
+    },
+    {
+      "titre": "Le Wifi est souvent payant et lent. Acheter une carte SIM locale (Vodafone/Bluesky) à l'aéroport est la meilleure option pour rester connecté.",
+      "symbole": "📶"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Infos officielles et inspirations",
+      "titre": "Cook Islands Tourism",
+      "url": "https://cookislands.travel/fr",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Activités et réservations",
+      "titre": "Rarotonga.com",
+      "url": "https://www.rarotonga.com/",
+      "symbole": "🎟️"
+    },
+    {
+      "legende": "Prévisions météo",
+      "titre": "MetService NZ (Rarotonga)",
+      "url": "https://www.metservice.com/world/towns-cities/rarotonga",
+      "symbole": "🌤️"
+    }
+  ]
+}
