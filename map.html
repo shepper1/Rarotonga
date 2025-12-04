@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - undefined</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: -21.235168958333336, lng: -159.772812425 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":-21.2562443,"lng":-159.7297167,"name":"Muri Beach","jour":1,"titre":"Kia Orana, Bienvenue à Rarotonga !","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2562443,-159.7297167&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2562443,-159.7297167","aiImageUrl":"jour1.jpg"},{"lat":-21.2056839,"lng":-159.7850102,"name":"Avarua","jour":2,"titre":"Avarua, Cœur Battant de l'Île","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2056839,-159.7850102&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2056839,-159.7850102","aiImageUrl":"jour2.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Centre de l'île","jour":3,"titre":"L'Île Côté Montagne","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour3.jpg"},{"lat":-21.2492231,"lng":-159.7283205,"name":"Muri Lagoon","jour":4,"titre":"Trésors du Lagon de Muri","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2492231,-159.7283205&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2492231,-159.7283205","aiImageUrl":"jour4.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Tour de l'île","jour":5,"titre":"La Route Circulaire (Ara Tapu)","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour5.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Divers","jour":6,"titre":"Saveurs et Traditions","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour6.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Côte Sud / Passes","jour":7,"titre":"Le Monde du Silence","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour7.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Côte Ouest","jour":8,"titre":"Journée de Relaxation Totale","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour8.jpg"},{"lat":-21.2306607,"lng":-159.8276972,"name":"Avarua / Arorangi","jour":9,"titre":"L'Art de la Perle Noire","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2306607,-159.8276972&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2306607,-159.8276972","aiImageUrl":"jour9.jpg"},{"lat":-21.236736,"lng":-159.777671,"name":"Intérieur de l'île","jour":10,"titre":"Hors des Sentiers Battus","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.236736,-159.777671&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.236736,-159.777671","aiImageUrl":"jour10.jpg"},{"lat":-21.2575994,"lng":-159.7323354,"name":"Muri / Avarua","jour":11,"titre":"Derniers Instants et Souvenirs","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2575994,-159.7323354&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2575994,-159.7323354","aiImageUrl":"jour11.jpg"},{"lat":-21.2022001,"lng":-159.8046431,"name":"Aéroport de Rarotonga (RAR)","jour":12,"titre":"Aere Ra, à Bientôt Rarotonga","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-21.2022001,-159.8046431&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-21.2022001,-159.8046431","aiImageUrl":"jour12.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q&callback=initMap">
+  </script>
+</body>
+</html>
